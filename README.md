@@ -4,7 +4,7 @@ This repostitory contains some lessons learned aboout Microsoft Azure IoT Edge, 
 
 To get Azure IoT Edge Running on:
 
-#NVidia Jetson Nano
+# NVidia Jetson Nano
 
 1. Download the SO image from https://developer.nvidia.com/jetson-nano-sd-card-image-r322
 2. Follow the instructions here https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
@@ -14,6 +14,6 @@ To get Azure IoT Edge Running on:
 4. Follow the steps of Ubuntu Server 18.04 from https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
     - Ignore docker client erros if you face it.
 
-#Raspberry 4
+# Raspberry 4
 
 Comming soon...
