@@ -2,6 +2,8 @@
 
 This repository contains some lessons learned about Microsoft Azure IoT Edge, Hub SDK, Dockerfiles and Python Sample Codes regarding ARM64 architecture.
 
+See /dockerfiles folder to know how to create your images or check my dockerhub https://hub.docker.com/u/gleissonbezerra to download my base versions.
+
 To get Azure IoT Edge Running on:
 
 # NVidia Jetson Nano
