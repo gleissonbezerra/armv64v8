@@ -1,4 +1,4 @@
-FROM gleissonbezerra/basemodule:0.0.2-arm64v8
+FROM gleissonbezerra/python3iothubsdkv1:0.0.1-arm64v8
 
 WORKDIR /app
 
