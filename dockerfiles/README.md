@@ -1,6 +1,6 @@
 # arm64v8.build.python3.iothubsdkv1.Dockerfile 
 
-(It's is only necessary if want to use V1 of Python SDK)
+(It's is only necessary if you want to use V1 of Python SDK)
 
 This file contains all steps to compile IoT Hub SDK python version for ARM64v8.
 
