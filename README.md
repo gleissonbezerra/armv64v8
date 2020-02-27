@@ -15,6 +15,3 @@ To get Azure IoT Edge Running on:
     - echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
 4. Follow the steps on https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
 
-# Raspberry 4
-
-Comming soon...

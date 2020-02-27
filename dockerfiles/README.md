@@ -16,7 +16,6 @@ and, follow the instructions from https://github.com/Azure/azure-iot-sdk-python/
 
 Regardless if you download it or build it, the IoT Hub SDK ".so files" will be at /usr/sdk/src/c/cmake/iotsdk_linux/python/src/iothub_client.so and you have to copy it to root or path of your app inside the container.
 
-
 # arm64v8.python3.Dockerfile
 
 This file is a IoT EDGE Module sample that contains all steps to download the gleissonbezerra/python3iothubsdkv1:0.0.1-arm64v8 base image and put your Azure IoT EDGE Module Python 3 application running using Azure IoT HUB SDK on ARM64v8.
@@ -24,5 +23,14 @@ This file is a IoT EDGE Module sample that contains all steps to download the gl
 # arm64v8.build.python3.opencv3.4.6.Dockerfile
 
 This file contains all steps to compile OPENCV 3.4.6 that supports gstreamer for ARM64v8 + Raspberry Cameras.
+
+# arm64v8.jetson-nano-l4t-cuda-cudnn-7.6.3
+
+This file download specific CUDNN packages for Jetson Nano and install them to be used by applications and other dockerfiles that build dependent components.
+
+# arm64v8.jetson-nano-l4t-cuda-cudnn-opencv-4.2.0
+
+This file uses arm64v8.jetson-nano-l4t-cuda-cudnn-7.6.3 (required by OpenCV 4.2.0 CUDA Background) as base image in order to compile a CUDA and CUDNN enabled OpenCV for Python 3.6. Incluindg gstreamer1 libraries installation. (3 to 5 hours to complite depending on CPU cores. Change make -j5 to yours)
+
 
 
