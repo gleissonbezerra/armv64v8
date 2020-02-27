@@ -31,7 +31,7 @@ See https://github.com/gleissonbezerra/armv64v8/tree/master/dockerfiles folder t
 
 1. Download and build https://github.com/gleissonbezerra/armv64v8/blob/master/dockerfiles/arm64v8.jetson-nano-l4t-cuda-cudnn-opencv-4.2.0.Dockerfile
 
-# Use a compiled CUDNN/GSTreamer Enabled version of OpenCV 4.2.0 on NVidia Jetson Nano
+# Use a compiled CUDNN/GStreamer Enabled version of OpenCV 4.2.0 on NVidia Jetson Nano
 
 1. docker pull gleissonbezerra/jetson-nano-l4t-cuda-cudnn-opencv-4.2.0:1.0.0-arm64v8
 2. Follow that steps on https://www.pyimagesearch.com/2020/02/10/opencv-dnn-with-nvidia-gpus-1549-faster-yolo-ssd-and-mask-r-cnn/
