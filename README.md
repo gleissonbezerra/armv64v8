@@ -15,11 +15,11 @@ See https://github.com/gleissonbezerra/armv64v8/tree/master/dockerfiles folder t
     - echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
 4. Follow the steps on https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
 
-# To build an ARM64v8 version of Microsoft Azure IoT Hub Python SDK (v1 only)
+# Build an ARM64v8 version of Azure IoT Hub Python SDK (v1 only)
 
 1. Download and build https://github.com/gleissonbezerra/armv64v8/blob/master/dockerfiles/arm64v8.build.python3.iothubsdkv1.Dockerfile
 
-# To use an ARM64v8 compiled version of Microsoft Azure IoT Hub Python SDK (v1 only)
+# Use an ARM64v8 compiled version of Azure IoT Hub Python SDK (v1 only)
 
 2. Download and build https://github.com/gleissonbezerra/armv64v8/blob/master/dockerfiles/arm64v8.basemodule.python3.iothubsdkv1.Dockerfile
 
