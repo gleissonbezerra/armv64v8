@@ -1,8 +1,8 @@
 # armv64v8
 
-This repository contains some lessons learned about Microsoft Azure IoT Edge, Hub SDK, Dockerfiles and Python Sample Codes regarding ARM64 architecture.
+This repository contains some lessons learned about Microsoft Azure IoT Edge, IoT Hub SDK, Dockerfiles and Python regarding ARM64 architecture.
 
-See /dockerfiles folder to know how to create your images or check my dockerhub https://hub.docker.com/u/gleissonbezerra to download my base versions.
+See /dockerfiles folder to know about creating images or check my dockerhub https://hub.docker.com/u/gleissonbezerra to download some of them.
 
 To get Azure IoT Edge Running on:
 
@@ -13,8 +13,7 @@ To get Azure IoT Edge Running on:
 3. Once you have the OS running, if you want to connect your device to WiFi and depending on your adapter, you may need to do this:
     - sudo iw dev wlan0 set power_save off
     - echo "blacklist rtl8192cu" | sudo tee -a /etc/modprobe.d/blacklist.conf
-4. Follow the steps of Ubuntu Server 18.04 from https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
-    - Ignore any docker client errors if you face it.
+4. Follow the steps on https://docs.microsoft.com/en-us/azure/iot-edge/how-to-install-iot-edge-linux
 
 # Raspberry 4
 
