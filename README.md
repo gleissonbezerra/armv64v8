@@ -14,11 +14,11 @@ See https://github.com/gleissonbezerra/armv64v8/tree/master/dockerfiles folder t
 
 2. Download and build https://github.com/gleissonbezerra/armv64v8/blob/master/dockerfiles/arm64v8.basemodule.python3.iothubsdkv1.Dockerfile
 
-# Create a Docker Image that Download and Install CUDNN libraries for NVidia Jetson Nano
+# Create a Docker Image that Downloads and Install CUDNN libraries for NVidia Jetson Nano
 
 1. Download and build https://github.com/gleissonbezerra/armv64v8/blob/master/dockerfiles/arm64v8.jetson-nano-l4t-cuda-cudnn-7.6.3.Dockerfile
 
-# Create a Docker Image that Compile CUDNN/GSTreamer Enabled version of OpenCV 4.2.0 for NVidia Jetson Nano
+# Create a Docker Image that Compiles CUDNN/GSTreamer Enabled version of OpenCV 4.2.0 for NVidia Jetson Nano
 
 1. Download and build https://github.com/gleissonbezerra/armv64v8/blob/master/dockerfiles/arm64v8.jetson-nano-l4t-cuda-cudnn-opencv-4.2.0.Dockerfile
 
